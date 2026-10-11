@@ -7,6 +7,16 @@
   font-family: Inter;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 300ms ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
 footer {
   display: flex;
   flex-direction: column;

@@ -11,15 +11,6 @@ body {
   height: 100vh;
 }
 
-button {
-  cursor: pointer;
-  transition: transform 300ms ease-in-out;
-}
-
-button:hover {
-  transform: scale(1.05);
-}
-
 nav {
   padding: 24px 96px;
 
