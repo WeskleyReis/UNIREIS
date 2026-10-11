@@ -4,11 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/assets/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/styles/style_sec1_curso.css">
   <link rel="stylesheet" href="/styles/style_sec2_curso.css">
   <link rel="stylesheet" href="/styles/style_footer.css">
   <title>UNIREIS</title>
 </head>
 <body>
+  <nav>
+    <img src="/assets/logotipo.svg" alt="logotipo">
+    <div class="buttons_curse">
+      <a class="button_subscribe" href="/pages/curso.html">Inscreva-se</a>
+      <a class="button_vestibular" href="/pages/curso.html">Vestibular 2027</a>
+    </div>
+  </nav>
+
+  <div class="section_1">
+    <div class="emphasis_ilustrator">
+      <div class="ilustrator_info">
+        <p class="emphasis_ilustrator_title">CAMPUS PRINCIPAL</p>
+      </div>
+      <p class="emphasis_ilustrator_description">Infraestrutura de ponta e laboratório</p>
+    </div>
+    
+    <img class="logotipo" src="/assets/logotipo_2.svg" alt="logotipo_2">
+
+    <div class="imagem_container">
+      <img src="/assets/Ilustração de alunos.jpg" alt="">
+    </div>
+
+
+    <div class="search">
+      <label class="search_field state_field" for="state">
+        <span>Estado:</span>
+        <select name="state" id="state">
+          <option value="AC">AC</option>
+          <option value="AL">AL</option>
+          <option value="AP">AP</option>
+          <option value="AM">AM</option>
+          <option value="BA">BA</option>
+          <option value="CE">CE</option>
+          <option value="DF">DF</option>
+          <option value="ES">ES</option>
+          <option value="GO">GO</option>
+          <option value="MA">MA</option>
+          <option value="MT">MT</option>
+          <option value="MS">MS</option>
+          <option value="MG">MG</option>
+          <option value="PA">PA</option>
+          <option value="PB">PB</option>
+          <option value="PR">PR</option>
+          <option value="PE">PE</option>
+          <option value="PI">PI</option>
+          <option value="RJ">RJ</option>
+          <option value="RN">RN</option>
+          <option value="RS">RS</option>
+          <option value="RO">RO</option>
+          <option value="RR">RR</option>
+          <option value="SC">SC</option>
+          <option value="SP">SP</option>
+          <option value="SE" selected>SE</option>
+          <option value="TO">TO</option>
+        </select>
+      </label>
+
+      <label class="search_field city_field" for="city">
+        <span>Cidade</span>
+        <div class="input_wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pinned preview-icon"><path d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 01-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0112 0"/><path d="M4.474 15h-.197a1 1 0 00-.969.753l-1.097 4.35a1.5 1.5 0 001.444 1.898L20.344 22a1.5 1.5 0 001.446-1.897l-1.098-4.35a1 1 0 00-.969-.753h-.197"/><circle cx="12" cy="8" r="2"/></svg>
+          <input type="text" id="city" name="city" placeholder="Aracaju" value="Aracaju">
+        </div>
+      </label>
+
+      <label class="search_field course_field" for="course">
+        <span>Qual curso quer estudar?</span>
+        <input type="text" id="course" name="course" placeholder="Encontre seu curso">
+      </label>
+
+      <button class="search_button" type="button">
+        <span>Buscar</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search preview-icon"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+      </button>
+    </div>
+  </div>
+
   <div class="section_2">
     <div class="info">
       <p class="title">Encontre o seu curso e transforme sua carreira!</p>
@@ -159,7 +237,7 @@
         </a>
       </div>
     </div>
-    
+
     <div class="cards">
       <div class="card">
         <div class="info">
