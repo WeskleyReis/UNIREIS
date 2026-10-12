@@ -24,13 +24,20 @@
 }
 
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 380px));
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 32px;
+  
+  width: 100%;
+
+  box-sizing: border-box;
 }
 
 .card {
+  width: fit-content;
+
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -77,6 +84,10 @@
 .tags svg {
   width: 16px;
   height: 16px;
+}
+
+.tags p {
+  white-space: nowrap;
 }
 
 .modality {
@@ -132,4 +143,32 @@
 
   width: 100%;
   padding: 16px 0px;
+}
+
+@media (max-width: 840px) {
+  .section_2 {
+    padding: 96px 48px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 350px));
+  }
+
+  .card .title {
+    font-size: 20px;
+  }
+
+  .tags {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 440px) {
+  .section_2 {
+    padding: 96px 24px;
+  }
+
+  .info .title {
+    font-size: 24px;
+  }
 }

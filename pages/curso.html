@@ -33,47 +33,49 @@
     </div>
 
 
-    <div class="search">
-      <label class="search_field state_field" for="state">
-        <span>Estado:</span>
-        <select name="state" id="state">
-          <option value="AC">AC</option>
-          <option value="AL">AL</option>
-          <option value="AP">AP</option>
-          <option value="AM">AM</option>
-          <option value="BA">BA</option>
-          <option value="CE">CE</option>
-          <option value="DF">DF</option>
-          <option value="ES">ES</option>
-          <option value="GO">GO</option>
-          <option value="MA">MA</option>
-          <option value="MT">MT</option>
-          <option value="MS">MS</option>
-          <option value="MG">MG</option>
-          <option value="PA">PA</option>
-          <option value="PB">PB</option>
-          <option value="PR">PR</option>
-          <option value="PE">PE</option>
-          <option value="PI">PI</option>
-          <option value="RJ">RJ</option>
-          <option value="RN">RN</option>
-          <option value="RS">RS</option>
-          <option value="RO">RO</option>
-          <option value="RR">RR</option>
-          <option value="SC">SC</option>
-          <option value="SP">SP</option>
-          <option value="SE" selected>SE</option>
-          <option value="TO">TO</option>
-        </select>
-      </label>
-
-      <label class="search_field city_field" for="city">
-        <span>Cidade</span>
-        <div class="input_wrapper">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pinned preview-icon"><path d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 01-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0112 0"/><path d="M4.474 15h-.197a1 1 0 00-.969.753l-1.097 4.35a1.5 1.5 0 001.444 1.898L20.344 22a1.5 1.5 0 001.446-1.897l-1.098-4.35a1 1 0 00-.969-.753h-.197"/><circle cx="12" cy="8" r="2"/></svg>
-          <input type="text" id="city" name="city" placeholder="Aracaju" value="Aracaju">
-        </div>
-      </label>
+    <div class="search_container">
+      <div class="search">
+        <label class="search_field state_field" for="state">
+          <span>Estado:</span>
+          <select name="state" id="state">
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE" selected>SE</option>
+            <option value="TO">TO</option>
+          </select>
+        </label>
+  
+        <label class="search_field city_field" for="city">
+          <span>Cidade</span>
+          <div class="input_wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pinned preview-icon"><path d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 01-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0112 0"/><path d="M4.474 15h-.197a1 1 0 00-.969.753l-1.097 4.35a1.5 1.5 0 001.444 1.898L20.344 22a1.5 1.5 0 001.446-1.897l-1.098-4.35a1 1 0 00-.969-.753h-.197"/><circle cx="12" cy="8" r="2"/></svg>
+            <input type="text" id="city" name="city" placeholder="Aracaju" value="Aracaju">
+          </div>
+        </label>
+      </div>
 
       <label class="search_field course_field" for="course">
         <span>Qual curso quer estudar?</span>
@@ -93,6 +95,114 @@
       <p class="desc">Cursos próximos a: Aracaju - SE</p>
     </div>
     <div class="cards">
+      <div class="card">
+        <div class="info">
+          <p class="title">Enfermagem</p>
+          <div class="tags_container">
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock preview-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <p>5 anos</p>
+            </div>
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open preview-icon"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg>
+              <p>Bacharelado</p>
+            </div>
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              <p>Aracaju</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="modality">
+          <p>Modalidade:</p>
+          <div class="type_modality">
+            <p>Presencial</p>
+          </div>
+        </div>
+    
+        <div class="discount">
+          <p class="title">3 primeiras parcelas:</p>
+          <p class="price">R$ 99,00</p>
+        </div>
+    
+        <a class="more" href="/pages/index.html">
+          <span>Mais sobre o curso</span>
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="info">
+          <p class="title">Enfermagem</p>
+          <div class="tags_container">
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock preview-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <p>5 anos</p>
+            </div>
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open preview-icon"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg>
+              <p>Bacharelado</p>
+            </div>
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              <p>Aracaju</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="modality">
+          <p>Modalidade:</p>
+          <div class="type_modality">
+            <p>Presencial</p>
+          </div>
+        </div>
+    
+        <div class="discount">
+          <p class="title">3 primeiras parcelas:</p>
+          <p class="price">R$ 99,00</p>
+        </div>
+    
+        <a class="more" href="/pages/index.html">
+          <span>Mais sobre o curso</span>
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="info">
+          <p class="title">Enfermagem</p>
+          <div class="tags_container">
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock preview-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <p>5 anos</p>
+            </div>
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open preview-icon"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg>
+              <p>Bacharelado</p>
+            </div>
+            <div class="tags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              <p>Aracaju</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="modality">
+          <p>Modalidade:</p>
+          <div class="type_modality">
+            <p>Presencial</p>
+          </div>
+        </div>
+    
+        <div class="discount">
+          <p class="title">3 primeiras parcelas:</p>
+          <p class="price">R$ 99,00</p>
+        </div>
+    
+        <a class="more" href="/pages/index.html">
+          <span>Mais sobre o curso</span>
+        </a>
+      </div>
+
       <div class="card">
         <div class="info">
           <p class="title">Enfermagem</p>
@@ -236,117 +346,7 @@
           <span>Mais sobre o curso</span>
         </a>
       </div>
-    </div>
-
-    <div class="cards">
-      <div class="card">
-        <div class="info">
-          <p class="title">Enfermagem</p>
-          <div class="tags_container">
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock preview-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-              <p>5 anos</p>
-            </div>
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open preview-icon"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg>
-              <p>Bacharelado</p>
-            </div>
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-              <p>Aracaju</p>
-            </div>
-          </div>
-        </div>
-    
-        <div class="modality">
-          <p>Modalidade:</p>
-          <div class="type_modality">
-            <p>Presencial</p>
-          </div>
-        </div>
-    
-        <div class="discount">
-          <p class="title">3 primeiras parcelas:</p>
-          <p class="price">R$ 99,00</p>
-        </div>
-    
-        <a class="more" href="/pages/index.html">
-          <span>Mais sobre o curso</span>
-        </a>
-      </div>
-
-      <div class="card">
-        <div class="info">
-          <p class="title">Enfermagem</p>
-          <div class="tags_container">
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock preview-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-              <p>5 anos</p>
-            </div>
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open preview-icon"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg>
-              <p>Bacharelado</p>
-            </div>
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-              <p>Aracaju</p>
-            </div>
-          </div>
-        </div>
-    
-        <div class="modality">
-          <p>Modalidade:</p>
-          <div class="type_modality">
-            <p>Presencial</p>
-          </div>
-        </div>
-    
-        <div class="discount">
-          <p class="title">3 primeiras parcelas:</p>
-          <p class="price">R$ 99,00</p>
-        </div>
-    
-        <a class="more" href="/pages/index.html">
-          <span>Mais sobre o curso</span>
-        </a>
-      </div>
-
-      <div class="card">
-        <div class="info">
-          <p class="title">Enfermagem</p>
-          <div class="tags_container">
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock preview-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-              <p>5 anos</p>
-            </div>
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open preview-icon"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg>
-              <p>Bacharelado</p>
-            </div>
-            <div class="tags">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-              <p>Aracaju</p>
-            </div>
-          </div>
-        </div>
-    
-        <div class="modality">
-          <p>Modalidade:</p>
-          <div class="type_modality">
-            <p>Presencial</p>
-          </div>
-        </div>
-    
-        <div class="discount">
-          <p class="title">3 primeiras parcelas:</p>
-          <p class="price">R$ 99,00</p>
-        </div>
-    
-        <a class="more" href="/pages/index.html">
-          <span>Mais sobre o curso</span>
-        </a>
-      </div>
-
+      
       <div class="card">
         <div class="info">
           <p class="title">Enfermagem</p>
