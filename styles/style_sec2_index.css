@@ -145,11 +145,27 @@
   }
 
   .section_2 .info .title {
-    font-size: 20px;
+    font-size: 16px;
 
   }
 
   .section_2 .info .description {
     font-size: 12px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .modality_title {
+    font-size: 20px;
+  }
+
+  .modality_desc {
+    font-size: 14px;
+  }
+
+  .type {
+    font-size: 14px;
   }
 }
